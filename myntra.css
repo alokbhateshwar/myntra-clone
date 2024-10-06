@@ -1,0 +1,273 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #ffffff;
+    width: 1263.33px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+
+    /* border-bottom: solid #ffffff; */
+}
+  
+  
+
+.myntralogo {
+    height:  53px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logocontainer {
+    margin-left: 4px;
+
+}
+
+.navbar {
+    display: flex;
+    min-width: 515px;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    letter-spacing: .3px;
+    font-size: 14px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 31.5PX 9px;
+    border-bottom: 0.1px solid #ffffff;
+
+
+    /* transition: all 2S ease-in-out 0.1s; */
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid #ee5f73;
+}
+
+.navbar a sup {
+    color: red;
+    font-size: 10px;
+}
+
+.searchbar {
+    height: 40px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    border: 0;
+
+
+}
+header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Simple shadow */
+
+  }
+  
+
+  .searchinput {
+    color: #696e79;
+    background-color: #f5f5f6;
+    border: none;
+    /* padding: 5px; */
+    height: 40px;
+    flex-grow: 1;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+   outline: none;  /* Remove default outline*/
+  
+}
+.searchicon {
+    align-items: center;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+
+    box-sizing: content-box;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+
+}
+
+.actionbar {
+    margin-right: 4%;
+    display: flex;
+    min-width: 200px;
+   justify-content:space-around;
+   text-decoration: none;
+
+
+}
+
+.actioncontainer{
+   text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+align-items: center;
+
+}
+
+
+.actionname{
+    text-decoration: none;
+    padding: 14px ;
+
+}
+
+.actionbar a{
+    text-decoration: none;
+    color: #282c3f;
+    font-weight: 700;
+
+}
+
+.actionname:hover{
+    border-bottom: 2px solid #ee5f73;
+    
+
+}
+
+.bannercontainer{
+
+    width: 100%;
+}
+
+
+.firstbanner{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.firstbanner1{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.catagoryheading{
+    font-weight: 600;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.items{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.item1{
+height: 200px;
+width: auto;
+transition:  all 0.5s ease-in-out 0.2s;
+
+}
+.item2{
+height: 200px;
+width: auto;
+transition:  all 0.5s ease-in-out 0.2s;
+
+}
+.item3{
+height: 200px;
+width: auto;
+transition:  all 0.5s ease-in-out 0.2s;
+
+}
+.item4{
+height: 200px;
+width: auto;
+transition:  all 0.5s ease-in-out 0.2s;
+
+}
+.item5{
+height: 200px;
+width: auto;
+transition:  all 0.5s ease-in-out 0.2s;
+
+}
+.item6{
+height: 200px;
+width: auto;
+transition:  all 0.5s ease-in-out 0.2s;
+
+}
+.item7{
+height: 200px;
+width: auto;
+transition:  all 0.5s ease-in-out 0.2s;
+
+}
+.item8{
+height: 200px;
+width: auto;
+transition:  all 0.5s ease-in-out 0.2s;
+
+}
+
+
+
+.item1:hover{
+transform: scale(1.1);
+}
+.item2:hover{
+transform: scale(1.1);
+}
+.item3:hover{
+transform: scale(1.1);
+}
+.item4:hover{
+transform: scale(1.1);
+}
+.item5:hover{
+transform: scale(1.1);
+}
+.item6:hover{
+transform: scale(1.1);
+}
+.item7:hover{
+transform: scale(1.1);
+}
+.item8:hover{
+transform: scale(1.1);
+}
+
+
+.catagoryitems{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.cat1,.cat2,.cat3,.cat4,.cat5,.cat6,.cat7,.cat8{
+    height: 200px;
+    width: auto;
+transition:  all 0.5s ease-in-out 0.2s;
+
+}
+
+.cat1:hover,.cat2:hover,.cat3:hover,.cat4:hover,.cat5:hover,.cat6:hover,.cat7:hover,.cat8:hover{
+transform: scale(1.1);
+
+}
+
+.last{
+    width: 100%;
+}
+.last1{
+    width: 100%;
+}
